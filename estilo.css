@@ -1,0 +1,169 @@
+/*CONTENEDORES*/
+body{
+    margin: 0;
+    background-size: cover;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inicio{
+    height: 100vh;
+    gap: 3%;
+}
+.boton{
+    gap: 40px;
+    flex-direction: row;
+}
+
+/*FONDOS*/
+body.comienzo{
+    background-image: url("img/FondoInicio.jpg");
+}
+body.Pasion{
+    background-image: url("img/FondoPasion.jpg");
+}
+body.Familia{
+    background-image: url("img/FondoFamilia.jpg");
+}
+body.Oscars{
+    background-image: url("img/FondoOscars.jpg");
+ 
+}
+body.Platita{
+    background-image: url("img/FondoPlatita.jpg");
+}
+body.Conocer{
+    background-image: url("img/FondoConoer.jpg");
+}
+body.Experiencia{
+    background-image: url("img/FondoExperiencias.jpg");
+}
+body.Finalisma{
+    background-image: url("img/FondoGraduada.jpg");
+}
+#FCarrera{
+    background-color: rgba(36, 22, 0, 0.763);
+}
+#FPasion{
+    background-color: rgba(0, 7, 36, 0.509);
+}
+#FFam{
+    background-color: rgba(36, 0, 23, 0.509);
+}
+#FConocer{
+    background-color: rgba(37, 0, 3, 0.244); 
+}
+#FFinal{
+    background-color: rgba(6, 0, 37, 0.244); 
+}
+
+
+/*IMAGENES*/
+.fotito{
+    height: 220px ;
+    border-radius: 5dvb;
+    gap: -20px;
+}
+
+/*TEXTOS*/
+.Texto{
+    color: beige;
+    font-family:'Times New Roman', Times, serif;
+    margin: 6px;
+    text-align: center;
+}
+.Titulo{
+    font-size: x-large;
+}
+.Negrita{
+    font-weight: bolder ;
+}
+.Opciones{
+    font-size: large;
+    font-style: oblique;
+}
+.Final{
+    font-style:italic;
+    letter-spacing: 0.2cm;
+    font-size: xx-large;
+}
+#TCarrera{
+    color: rgb(255, 235, 134);
+    background-color: rgba(0, 54, 1, 0.735);
+}
+#TPareja{
+    color: rgb(255, 174, 76);
+    background-color: rgba(0, 11, 54, 0.53);
+}
+#TFamilia{
+    color: rgb(253, 146, 146);
+    background-color: rgba(25, 0, 54, 0.53);
+}
+#TOscars{
+    color: rgb(255, 254, 180);
+    background-color: rgba(52, 44, 28, 0.4);
+}
+#TPlatita{
+    color: rgb(255, 171, 61);
+    background-color: rgba(53, 24, 0, 0.4);
+}
+#TConocer{
+    color: rgb(255, 170, 170);
+    background-color: rgba(53, 10, 0, 0.594);
+}
+#TExperiencias{
+    color: rgb(255, 0, 0);
+    background-color: rgba(53, 10, 0, 0.594);
+}
+#TFinal{
+    color: rgb(0, 106, 255);
+    background-color: rgba(0, 1, 53, 0.594);
+}
+
+/*BOTONES*/
+button{
+    width: 30vh;
+    border-radius: 5dvb;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.2);
+}
+#carrera{
+    border-color:rgba(255, 232, 55, 0.92);
+    background-color: rgba(0, 54, 1, 0.735);
+}
+#pareja{
+    border-color: hsla(36, 100%, 57%, 0.947);
+    background-color: hsla(252, 100%, 32%, 0.845);
+}
+#flia{
+    border-color: hsla(0, 100%, 69%, 0.947);
+    background-color: rgba(25, 0, 54, 0.53)
+}
+#oscar{
+    border-color:rgb(255, 254, 180);
+    background-color: rgba(52, 44, 28, 0.4);
+}
+#platita{
+    border-color:rgb(255, 171, 61);
+    background-color: rgba(53, 24, 0, 0.4);
+}
+#conocer{
+    border-color:rgb(255, 170, 170);
+    background-color: rgba(53, 10, 0, 0.594);
+}
+#experiencias{
+    border-color:rgb(255, 0, 0);
+    background-color: rgba(53, 10, 0, 0.594);
+}
+#finalizama{
+    border-color:rgb(0, 106, 255);
+    background-color: rgba(0, 1, 53, 0.594);
+}
